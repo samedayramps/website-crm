@@ -9,7 +9,7 @@ export interface RentalRequestResponse {
 
 export async function submitRentalRequest(data: RentalRequestFormData) {
   try {
-    // Update the URL to point to your backend service
+    // Use the correct backend URL
     const response = await axios.post('https://samedayramps-016e8e090b17.herokuapp.com/api/rental-requests', data);
     return response.data;
   } catch (error) {
