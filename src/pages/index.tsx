@@ -5,6 +5,7 @@ import Button from '../components/ui/button'
 import { ChevronRight, ChevronDown } from 'lucide-react'
 import RampRequestForm from '../components/ramprequestform/RampRequestForm'
 import Modal from '../components/ui/Modal'; // Import the Modal component
+import Image from 'next/image' // Import the Image component
 
 interface ReasonProps {
   title: string
@@ -33,9 +34,9 @@ const Reason: React.FC<ReasonProps> = ({ title, details }) => {
 }
 
 const heroImages = [
-  '/images/hero1.jpg',
-  '/images/hero2.jpg',
-  '/images/hero3.jpg',
+  'https://i.imgur.com/qscqTrp.jpg', // Direct link to the first image
+  'https://i.imgur.com/R4qdE5t.jpg', // Direct link to the second image
+  'https://i.imgur.com/auRW5x1.jpg', // Direct link to the third image
   // Add more image URLs as needed
 ];
 
@@ -98,11 +99,19 @@ export default function HomePage() {
         {heroImages.map((image, index) => (
           <div
             key={image}
-            className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ${
+            className={`absolute inset-0 transition-opacity duration-1000 ${
               index === currentImageIndex ? (isImageFading ? 'opacity-0' : 'opacity-100') : 'opacity-0'
             }`}
-            style={{ backgroundImage: `url(${image})` }}
-          ></div>
+          >
+            <Image
+              src={image}
+              alt={`Hero Image ${index + 1}`}
+              layout="fill"
+              objectFit="cover"
+              quality={75}
+              priority={index === 0}
+            />
+          </div>
         ))}
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative h-full flex items-center justify-center">

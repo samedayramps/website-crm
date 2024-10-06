@@ -2,7 +2,7 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-      domains: ['your-image-domain.com'],
+      domains: ['i.imgur.com'], // Add Imgur domain here
     },
   }
   
