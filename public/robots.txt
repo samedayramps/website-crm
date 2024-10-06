@@ -7,3 +7,9 @@ Host: https://www.samedayramps.com
 
 # Sitemaps
 Sitemap: https://www.samedayramps.com/sitemap.xml
+
+# ... existing rules ...
++ Disallow: /api/
++ Disallow: /admin/
++ Allow: /wheelchair-ramp-rentals/
++ Sitemap: https://www.samedayramps.com/sitemap.xml

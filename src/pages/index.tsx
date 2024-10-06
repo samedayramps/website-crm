@@ -81,12 +81,10 @@ export default function HomePage() {
   ];
 
   const helpfulTopics = [
+    { title: 'Residential Ramps', path: '/wheelchair-ramp-rentals/residential' },
+    { title: 'Commercial Ramps', path: '/wheelchair-ramp-rentals/commercial' },
     { title: 'ADA Guidelines', path: '/helpful-information/ada-guidelines' },
-    { title: 'FAQs', path: '/helpful-information/faqs' },
     { title: 'Funding Assistance', path: '/helpful-information/funding-assistance' },
-    { title: 'How to Get a Wheelchair Ramp', path: '/helpful-information/how-to-get-a-wheelchair-ramp' },
-    { title: 'Maintenance and Safety Tips', path: '/helpful-information/maintenance-safety-tips' },
-    { title: 'Wheelchair Ramp Types', path: '/helpful-information/wheelchair-ramp-types' },
   ];
 
   const handleOpenRampRequest = () => {
@@ -94,7 +92,10 @@ export default function HomePage() {
   };
 
   return (
-    <Layout>
+    <Layout
+      title="Wheelchair Ramp Rentals in DFW"
+      description="Fast installation and affordable rates for wheelchair ramp rentals in the Dallas-Fort Worth area."
+    >
       <section className="relative h-[600px] overflow-hidden">
         {heroImages.map((image, index) => (
           <div

@@ -48,7 +48,7 @@ export default function AboutUs() {
           </p>
         </div>
 
-        <div className="bg-blue-600 text-white rounded-lg p-8 text-center">
+        <div className="bg-[#3099e5] text-white rounded-lg p-8 text-center">
           <h2 className="text-3xl font-semibold mb-4">Ready to Experience the Same Day Ramps Difference?</h2>
           <p className="text-lg mb-6">
             Whether you need a temporary ramp for your home, a long-term solution for your business, or accessibility for your special event, we're here to help.

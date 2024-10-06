@@ -34,12 +34,12 @@ export default function Layout({ children, title, description }: LayoutProps) {
         <meta property="og:title" content={fullTitle} />
         {description && <meta property="og:description" content={description} />}
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://example.com/og-image.jpg" />
+        <meta property="og:image" content="https://www.samedayramps.com/images/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={fullTitle} />
         {description && <meta name="twitter:description" content={description} />}
-        <meta name="twitter:image" content="https://example.com/twitter-image.jpg" />
-        <link rel="canonical" href={`https://example.com${typeof window !== 'undefined' ? window.location.pathname : ''}`} />
+        <meta name="twitter:image" content="https://www.samedayramps.com/images/twitter-image.jpg" />
+        <link rel="canonical" href={`https://www.samedayramps.com${typeof window !== 'undefined' ? window.location.pathname : ''}`} />
       </Head>
       <Header onOpenRampRequest={handleOpenRampRequest} />
       <main className="flex-grow">{children}</main>

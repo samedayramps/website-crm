@@ -14,13 +14,40 @@ export default function WheelchairRampTypes() {
             Wheelchair ramps come in various types, each designed to meet specific needs and environments. Understanding the differences can help you choose the right ramp for your situation.
           </p>
 
+          <h2 className="text-3xl font-semibold mt-6">Wood Ramps</h2>
+          <p>
+            Wood ramps are a popular choice for residential settings due to their natural appearance and customizability. They can be built to fit specific dimensions and are often more affordable than other materials.
+          </p>
+          <ul className="list-disc list-inside mb-4">
+            <li><strong>Benefits:</strong> Customizable, aesthetically pleasing, cost-effective.</li>
+            <li><strong>Ideal For:</strong> Homes and areas where aesthetics are important.</li>
+          </ul>
+
+          <h2 className="text-3xl font-semibold mt-6">Aluminum Ramps</h2>
+          <p>
+            Aluminum ramps are lightweight, durable, and resistant to rust, making them ideal for both temporary and permanent installations. They are easy to install and maintain.
+          </p>
+          <ul className="list-disc list-inside mb-4">
+            <li><strong>Benefits:</strong> Lightweight, rust-resistant, easy to install.</li>
+            <li><strong>Ideal For:</strong> Both residential and commercial use.</li>
+          </ul>
+
           <h2 className="text-3xl font-semibold mt-6">Portable Ramps</h2>
           <p>
-            Portable ramps are lightweight and easy to transport, making them ideal for temporary use or travel. They can be used to overcome small obstacles like steps or curbs.
+            Portable ramps are designed for temporary use and are easy to transport. They are perfect for travel or short-term needs and can be used to overcome small obstacles like steps or curbs.
           </p>
           <ul className="list-disc list-inside mb-4">
             <li><strong>Benefits:</strong> Easy to carry and set up, suitable for temporary needs.</li>
             <li><strong>Ideal For:</strong> Travel, temporary access needs, and small height differences.</li>
+          </ul>
+
+          <h2 className="text-3xl font-semibold mt-6">Steel Ramps</h2>
+          <p>
+            Steel ramps are known for their strength and durability. They are often used in commercial settings where heavy-duty use is expected. Steel ramps require maintenance to prevent rust.
+          </p>
+          <ul className="list-disc list-inside mb-4">
+            <li><strong>Benefits:</strong> Strong and durable, suitable for heavy use.</li>
+            <li><strong>Ideal For:</strong> Commercial and industrial settings.</li>
           </ul>
 
           <h2 className="text-3xl font-semibold mt-6">Threshold Ramps</h2>
@@ -30,33 +57,6 @@ export default function WheelchairRampTypes() {
           <ul className="list-disc list-inside mb-4">
             <li><strong>Benefits:</strong> Simple installation, enhances accessibility at doorways.</li>
             <li><strong>Ideal For:</strong> Homes, offices, and any place with small steps or raised thresholds.</li>
-          </ul>
-
-          <h2 className="text-3xl font-semibold mt-6">Modular Ramps</h2>
-          <p>
-            Modular ramps are customizable and can be configured to fit various spaces. They are suitable for both residential and commercial use and can be adjusted as needed.
-          </p>
-          <ul className="list-disc list-inside mb-4">
-            <li><strong>Benefits:</strong> Flexible design, can be reconfigured or expanded.</li>
-            <li><strong>Ideal For:</strong> Long-term use, complex access needs, and larger height differences.</li>
-          </ul>
-
-          <h2 className="text-3xl font-semibold mt-6">Permanent Ramps</h2>
-          <p>
-            Permanent ramps are built to last and are typically constructed from durable materials like concrete or metal. They are a long-term solution for accessibility.
-          </p>
-          <ul className="list-disc list-inside mb-4">
-            <li><strong>Benefits:</strong> Durable and reliable, requires professional installation.</li>
-            <li><strong>Ideal For:</strong> Homes and businesses with ongoing accessibility needs.</li>
-          </ul>
-
-          <h2 className="text-3xl font-semibold mt-6">Folding Ramps</h2>
-          <p>
-            Folding ramps are similar to portable ramps but can be folded for easier storage and transport. They are convenient for users who need a ramp on the go.
-          </p>
-          <ul className="list-disc list-inside mb-4">
-            <li><strong>Benefits:</strong> Compact storage, easy to transport.</li>
-            <li><strong>Ideal For:</strong> Travel, temporary access, and users with limited storage space.</li>
           </ul>
 
           <p>

@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="flex flex-col items-center md:items-end">
             <div className="flex items-center mb-2">
               <Phone className="mr-2" />
-              <span>1-800-RAMP-NOW</span>
+              <span>(940) 373-5713</span>
             </div>
             <div className="flex items-center">
               <Mail className="mr-2" />

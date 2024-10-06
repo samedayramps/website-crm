@@ -7,8 +7,7 @@ const HelpfulInformation: React.FC = () => {
     { title: 'ADA Guidelines', path: '/helpful-information/ada-guidelines' },
     { title: 'FAQs', path: '/helpful-information/faqs' },
     { title: 'Funding Assistance', path: '/helpful-information/funding-assistance' },
-    { title: 'How to Get a Wheelchair Ramp', path: '/helpful-information/how-to-get-a-wheelchair-ramp' },
-    { title: 'Maintenance and Safety Tips', path: '/helpful-information/maintenance-safety-tips' },
+    // Removed How to Get a Wheelchair Ramp
     { title: 'Wheelchair Ramp Types', path: '/helpful-information/wheelchair-ramp-types' },
   ];
 
