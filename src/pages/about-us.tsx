@@ -19,6 +19,7 @@ export default function AboutUs() {
           </p>
           <p className="text-lg mb-4">
             We believe that everyone deserves the freedom to access their surroundings with ease and dignity. Our team is dedicated to making this belief a reality through our top-quality ramp rentals and exceptional customer service.
+            <Link href="/helpful-information/ada-guidelines" className="text-blue-600 hover:underline">Read about our ADA compliance.</Link>
           </p>
         </div>
 
@@ -56,6 +57,9 @@ export default function AboutUs() {
           <Button asChild size="lg" className="btn-primary">
             <Link href="/rental-request">Get a Free Quote</Link>
           </Button>
+          <p className="mt-4">
+            <Link href="/helpful-information/faqs" className="text-blue-600 hover:underline">Check out our FAQs for more information.</Link>
+          </p>
         </div>
       </div>
     </Layout>

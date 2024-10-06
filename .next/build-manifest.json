@@ -32,25 +32,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about-us": [
+    "/service-areas/dallas": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/about-us.js"
+      "static/chunks/pages/service-areas/dallas.js"
     ],
-    "/contact-us": [
+    "/wheelchair-ramp-rentals/commercial": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/contact-us.js"
+      "static/chunks/pages/wheelchair-ramp-rentals/commercial.js"
     ],
-    "/helpful-information": [
+    "/wheelchair-ramp-rentals/residential": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/helpful-information.js"
-    ],
-    "/wheelchair-ramp-rentals": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/wheelchair-ramp-rentals.js"
+      "static/chunks/pages/wheelchair-ramp-rentals/residential.js"
     ]
   },
   "ampFirstPages": []

@@ -48,6 +48,7 @@ export default function WheelchairRampRentals() {
           <p className="text-xl mb-8 text-center max-w-3xl mx-auto">
             At Same Day Ramps, we offer a variety of wheelchair ramp rental solutions to meet your specific needs. 
             Whether you're looking for a temporary home solution, need to make your business accessible, or planning an inclusive event, we've got you covered.
+            <Link href="/helpful-information/wheelchair-ramp-types" className="text-blue-600 hover:underline">Learn more about the types of ramps we offer.</Link>
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
@@ -69,6 +70,9 @@ export default function WheelchairRampRentals() {
             <Button size="lg" className="btn-primary" onClick={() => setIsModalOpen(true)}>
               Request a Quote
             </Button>
+            <p className="mt-4">
+              <Link href="/helpful-information/funding-assistance" className="text-blue-600 hover:underline">Explore funding assistance options.</Link>
+            </p>
           </div>
         </div>
       </Layout>

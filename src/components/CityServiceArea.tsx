@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from './Layout';
 import Head from 'next/head';
+import Link from 'next/link'; // Import the Link component
 
 interface CityServiceAreaProps {
   cityName: string;
@@ -40,6 +41,9 @@ const CityServiceArea: React.FC<CityServiceAreaProps> = ({ cityName, description
             <p className="text-lg mb-8">
               Whether you need a ramp for residential, commercial, or event purposes, we have the right solution for you. Contact us today for a free quote and same-day installation in many cases.
             </p>
+            <Link href="/helpful-information/ada-guidelines" className="text-blue-600 hover:underline">
+              Learn more about ADA guidelines for ramps.
+            </Link>
           </div>
         </section>
 
@@ -52,6 +56,11 @@ const CityServiceArea: React.FC<CityServiceAreaProps> = ({ cityName, description
               <li>High-quality, ADA-compliant ramps</li>
               <li>Experienced and professional installation team</li>
             </ul>
+            <p className="mt-4 text-center">
+              <Link href="/helpful-information/funding-assistance" className="text-blue-600 hover:underline">
+                Explore funding assistance options.
+              </Link>
+            </p>
           </div>
         </section>
 

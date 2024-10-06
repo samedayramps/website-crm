@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
+import Link from 'next/link'; // Add this import
 
 export default function FundingAssistance() {
   return (
@@ -12,6 +13,7 @@ export default function FundingAssistance() {
         <div className="text-lg space-y-6">
           <p>
             There are various funding options available to help cover the cost of wheelchair ramp rentals and installations. These may include government programs, non-profit organizations, and insurance coverage.
+            <Link href="/helpful-information/how-to-get-a-wheelchair-ramp" className="text-blue-600 hover:underline">Learn how to get a wheelchair ramp with funding assistance.</Link>
           </p>
 
           <h2 className="text-2xl font-semibold mt-6">1. Texas Department of Housing and Community Affairs (TDHCA)</h2>

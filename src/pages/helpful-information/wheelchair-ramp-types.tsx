@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
+import Link from 'next/link'; // Add this import
 
 export default function WheelchairRampTypes() {
   return (
@@ -12,6 +13,7 @@ export default function WheelchairRampTypes() {
         <div className="text-lg space-y-6">
           <p>
             Wheelchair ramps come in various types, each designed to meet specific needs and environments. Understanding the differences can help you choose the right ramp for your situation.
+            <Link href="/helpful-information/faqs" className="text-blue-600 hover:underline">Visit our FAQs for more details on choosing the right ramp.</Link>
           </p>
 
           <h2 className="text-3xl font-semibold mt-6">Wood Ramps</h2>

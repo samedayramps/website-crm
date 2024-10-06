@@ -24,6 +24,9 @@ const HelpfulInformation: React.FC = () => {
               <h2 className="text-2xl font-semibold">{topic.title}</h2>
             </Link>
           ))}
+          <Link href="/helpful-information/how-to-get-a-wheelchair-ramp" className="block bg-white p-6 rounded-lg shadow-md hover:bg-gray-100">
+            <h2 className="text-2xl font-semibold">How to Get a Wheelchair Ramp</h2>
+          </Link>
         </div>
       </div>
     </Layout>

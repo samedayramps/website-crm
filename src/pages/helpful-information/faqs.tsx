@@ -14,6 +14,7 @@ export default function FAQs() {
           <h2 className="text-2xl font-semibold mt-6">1. How do I rent a wheelchair ramp?</h2>
           <p>
             Renting a wheelchair ramp is easy. Simply contact us to discuss your needs, and we'll guide you through the process. We offer flexible rental terms to suit your specific situation.
+            <Link href="/helpful-information/how-to-get-a-wheelchair-ramp" className="text-blue-600 hover:underline">Learn more about getting a wheelchair ramp.</Link>
           </p>
 
           <h2 className="text-2xl font-semibold mt-6">2. What types of ramps do you offer?</h2>

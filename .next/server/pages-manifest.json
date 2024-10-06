@@ -2,10 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/service-areas/dallas": "pages/service-areas/dallas.js",
+  "/service-areas": "pages/service-areas.js",
   "/": "pages/index.js",
-  "/wheelchair-ramp-rentals": "pages/wheelchair-ramp-rentals.js",
-  "/helpful-information": "pages/helpful-information.js",
-  "/about-us": "pages/about-us.js",
   "/404": "pages/404.js",
-  "/contact-us": "pages/contact-us.js"
+  "/wheelchair-ramp-rentals/commercial": "pages/wheelchair-ramp-rentals/commercial.js",
+  "/wheelchair-ramp-rentals/residential": "pages/wheelchair-ramp-rentals/residential.js"
 }

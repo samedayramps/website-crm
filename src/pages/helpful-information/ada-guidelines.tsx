@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
+import Link from 'next/link'; // Add this import
 
 export default function ADAGuidelines() {
   return (
@@ -12,6 +13,7 @@ export default function ADAGuidelines() {
         <div className="text-lg space-y-6">
           <p>
             The Americans with Disabilities Act (ADA) provides guidelines to ensure that wheelchair ramps are accessible and safe for all users. These guidelines are crucial for residential, commercial, and event settings to ensure compliance and accessibility.
+            <Link href="/helpful-information/faqs" className="text-blue-600 hover:underline">Check our FAQs for more information on ADA compliance.</Link>
           </p>
 
           <h2 className="text-3xl font-semibold mt-6">Residential Rentals</h2>
